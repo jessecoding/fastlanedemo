@@ -26,6 +26,7 @@ platform :ios do
       export_method: "app-store",
       output_name: "FastlaneDemo_Prod_appstore",
       xcargs: "OTHER_SWIFT_FLAGS=\"\$(inherited) \"-D\" \"Prod\"\"",
+      export_options: "./ExportOptions.plist"
     )
   end
 
